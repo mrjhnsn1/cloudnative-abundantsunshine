@@ -78,6 +78,20 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+		<dependency>
+		  <groupId>javax.xml.bind</groupId>
+		  <artifactId>jaxb-api</artifactId>
+		  <version>2.3.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>org.javassist</groupId>
+		  <artifactId>javassist</artifactId>
+		  <version>3.23.1-GA</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
